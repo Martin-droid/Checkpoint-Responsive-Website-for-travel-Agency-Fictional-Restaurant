@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karibu Kitchen - Nairobi's Premier Fusion Restaurant</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i> Karibu Kitchen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Karibu Kitchen</h1>
+            <p>Nairobi's Premier Fusion Dining Experience</p>
+            <button class="btn btn-hero">Explore Our Menu</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Signature Dishes</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600" class="card-img-top" alt="Grilled Tilapia">
+                        <div class="card-body">
+                            <h5 class="card-title">Grilled Tilapia</h5>
+                            <p class="card-text">Fresh Lake Victoria tilapia with coconut-lime butter, served with sukuma wiki and ugali chips.</p>
+                            <p class="menu-price">KSh 1,850</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600" class="card-img-top" alt="Nyama Choma">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Nyama Choma</h5>
+                            <p class="card-text">Succulent grilled beef ribs marinated in our secret blend, served with kachumbari and roasted potatoes.</p>
+                            <p class="menu-price">KSh 2,200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600" class="card-img-top" alt="Swahili Pilau">
+                        <div class="card-body">
+                            <h5 class="card-title">Coastal Pilau Platter</h5>
+                            <p class="card-text">Aromatic Swahili pilau rice with tender chicken, served with mango chutney and coconut raita.</p>
+                            <p class="menu-price">KSh 1,450</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800" alt="Restaurant Interior" class="about-img">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Welcome to Karibu Kitchen, Nairobi's premier destination for contemporary African fusion cuisine. Located in the heart of Westlands, we've been delighting locals and visitors since 2015 with our unique blend of traditional Kenyan flavors and modern culinary techniques.</p>
+                        <p>Our talented chefs celebrate Kenya's rich culinary heritage while incorporating international influences to create innovative dishes. From succulent nyama choma to coastal-inspired seafood, every plate tells a story of our vibrant culture and diverse food traditions.</p>
+                        <p>At Karibu Kitchen, we source our ingredients from local farmers and fishermen, supporting our community while ensuring the freshest, highest-quality meals. Whether you're celebrating a milestone or enjoying dinner with family, we invite you to experience the warmth of Kenyan hospitality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="your.email@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <h5>Karibu Kitchen</h5>
+                    <p>Westlands Square, Ring Road Parklands, Nairobi</p>
+                    <p>Phone: +254 712 345 678 | Email: info@karibukitchen.co.ke</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Karibu Kitchen. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
